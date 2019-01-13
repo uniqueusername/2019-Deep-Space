@@ -17,7 +17,10 @@ public class OI {
     public XboxController contr = new XboxController(RobotMap.drivejoystick);
     public double turnConstant = 0.5;
 
-    public void getDriveSpeedRight() {
-      
+    public double getDriveSpeedRight() {
+      return turnConstant;
+    }
+    public double getDriveSpeedLeft() {
+      return turnConstant;
     }
 }
